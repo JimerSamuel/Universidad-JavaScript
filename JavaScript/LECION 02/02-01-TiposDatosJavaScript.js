@@ -26,3 +26,34 @@ var objeto = {
 };
 console.log(objeto);
 console.log(typeof objeto);
+
+//Tipo de dato Bolean(True, False)
+
+var bandera = true;
+
+console.log(typeof bandera);
+
+var banderita = false;
+
+console.log(banderita);
+
+//Tipo de dato Function
+
+function miFuncion() {
+  console.log(miFuncion);
+}
+
+//Tipo de dato Symbol
+
+var simbolo = Symbol("Mi simbolo");
+console.log(simbolo);
+
+//Tipo clase es una funcion
+
+class Persona {
+  constructor(nombre, apellido) {
+    this.nombre = nombre;
+    this.apellido = apellido;
+  }
+}
+console.log(Persona);
